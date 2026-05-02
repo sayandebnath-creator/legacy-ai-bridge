@@ -29,13 +29,13 @@ This project explores:
 **End-to-end pipeline:**
 ```bash
 User Query (Natural Language)
-↓
+            ↓
 Llama3 (Ollama) → SQL Generation
-↓
+            ↓
 SQLite (Legacy DB)
-↓
+            ↓
 Raw Result
-↓
+            ↓
 Llama3 → Human-readable Answer
 ```
 
@@ -158,6 +158,6 @@ it’s handling inconsistency, ambiguity, and failure in legacy systems.
 - Date normalization layer
 - Caching frequent queries
 
-Motivation :-
+## Motivation :-
 
 Inspired by real-world challenges in integrating AI with legacy enterprise infrastructure — where data is messy, undocumented, and inconsistent.
