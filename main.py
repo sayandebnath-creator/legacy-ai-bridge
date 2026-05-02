@@ -31,7 +31,8 @@ def query(q: str):
         return {
             "question": q,
             "generated_sql": sql_query,
-            "raw_result": result,
+            "row_count": len(result),
+            "raw_result": result[:5],  # return only first 5 rows for brevity
             "answer": answer
         }
 
