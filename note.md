@@ -18,3 +18,12 @@ OpenAI OR local (Ollama + Llama3 since you mentioned it earlier)
 NL → SQL (prompt-based)
 - Formatter
 SQL result → human-readable answer
+
+# What’s working (this is real signal)
+From your output :
+
+- ✅ Correct SQL generation
+SELECT SUM(amt_val) → clean, minimal, accurate
+- ✅ Query executed successfully
+- ✅ LLM formatted answer properly
+- ✅ End-to-end pipeline works (NL → SQL → Result → Explanation)
