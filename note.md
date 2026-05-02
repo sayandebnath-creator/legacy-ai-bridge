@@ -27,3 +27,15 @@ SELECT SUM(amt_val) → clean, minimal, accurate
 - ✅ Query executed successfully
 - ✅ LLM formatted answer properly
 - ✅ End-to-end pipeline works (NL → SQL → Result → Explanation)
+
+# What each field shows
+- generated_sql → “LLM is doing real translation”
+- row_count → “I understand data scale / output size”
+- raw_result (limited) → “I don’t blindly dump data”
+- answer → “User-friendly layer exists”
+
+# With Debug Mode
+- My demo looks like:
+“I built a system that translates, executes, and exposes internal behavior”
+- Which signals:
+👉 “A person understands systems”
